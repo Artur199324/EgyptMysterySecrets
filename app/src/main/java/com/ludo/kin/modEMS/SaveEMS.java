@@ -9,19 +9,6 @@ public class SaveEMS {
     private int de;
     public Activity activity;
     public Activity activityll;
-    private String hhj;
-
-    public Activity getActivityll() {
-        return activityll;
-    }
-
-    public void setActivityll(Activity activityll) {
-        this.activityll = activityll;
-    }
-
-    public Activity getActivity() {
-        return activity;
-    }
 
     public void setActivity(Activity activity) {
         this.activity = activity;
@@ -49,14 +36,7 @@ public class SaveEMS {
         activity.getSharedPreferences(activity.getPackageName(), Context.MODE_PRIVATE).edit().putInt("de", de).apply();
     }
 
-    public String getHhj() {
-        return bb();
-    }
 
-    public void setHhj(String hhj) {
-        this.hhj = hhj;
-        mm(this.hhj);
-    }
 
     public void mm(String ssff){
         activityll.getSharedPreferences(activityll.getPackageName(),Context.MODE_PRIVATE).edit().putString("bbb",ssff).apply();

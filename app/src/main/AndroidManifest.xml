@@ -23,10 +23,6 @@
         tools:replace="android:fullBackupContent"
         tools:targetApi="31">
         <activity
-            android:name=".actEMS.InnnActivity"
-            android:configChanges="orientation|screenSize"
-            android:exported="false" />
-        <activity
             android:name=".actEMS.StarGaActivity"
             android:screenOrientation="portrait"
             android:exported="false" />
@@ -36,9 +32,6 @@
             android:screenOrientation="landscape" />
         <activity
             android:name=".actEMS.BBActivity"
-            android:exported="true" />
-        <activity
-            android:name=".actEMS.EMSActivity"
             android:exported="true"
             >
             <intent-filter>

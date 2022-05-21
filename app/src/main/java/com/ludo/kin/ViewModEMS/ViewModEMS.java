@@ -7,26 +7,35 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 
+<<<<<<< HEAD
 import com.ludo.kin.actEMS.EMSActivity;
 import com.ludo.kin.modEMS.AAA;
 import com.ludo.kin.modEMS.FsssEMS;
 import com.ludo.kin.modEMS.GaMEMS;
 import com.ludo.kin.modEMS.KKKK;
 import com.ludo.kin.modEMS.Onnnn;
+=======
+import com.ludo.kin.modEMS.GaMEMS;
+>>>>>>> 9b95799 (sds)
 import com.ludo.kin.modEMS.ProEMS;
 import com.ludo.kin.modEMS.SaveEMS;
 
 public class ViewModEMS extends AndroidViewModel {
     GaMEMS gaMEMS;
     SaveEMS saveEMS;
+<<<<<<< HEAD
     KKKK kkkkk;
     AAA aaa;
     FsssEMS fsssEMS;
+=======
+
+>>>>>>> 9b95799 (sds)
     ProEMS proEMS;
 
     public ViewModEMS(@NonNull Application application) {
         super(application);
         saveEMS = new SaveEMS();
+<<<<<<< HEAD
         aaa = new AAA();
         Onnnn onnnn= new Onnnn();
         onnnn.oooo(application);
@@ -60,6 +69,11 @@ public class ViewModEMS extends AndroidViewModel {
         kkkkk.kkkInter();
         return kkkkk;
     }
+=======
+        proEMS = new ProEMS();
+    }
+
+>>>>>>> 9b95799 (sds)
 
     public void ssss(){
         gaMEMS = new GaMEMS();
