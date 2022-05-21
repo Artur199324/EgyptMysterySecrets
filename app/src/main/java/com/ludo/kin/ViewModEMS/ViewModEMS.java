@@ -7,73 +7,22 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 
-<<<<<<< HEAD
-import com.ludo.kin.actEMS.EMSActivity;
-import com.ludo.kin.modEMS.AAA;
-import com.ludo.kin.modEMS.FsssEMS;
 import com.ludo.kin.modEMS.GaMEMS;
-import com.ludo.kin.modEMS.KKKK;
-import com.ludo.kin.modEMS.Onnnn;
-=======
-import com.ludo.kin.modEMS.GaMEMS;
->>>>>>> 9b95799 (sds)
 import com.ludo.kin.modEMS.ProEMS;
 import com.ludo.kin.modEMS.SaveEMS;
 
 public class ViewModEMS extends AndroidViewModel {
     GaMEMS gaMEMS;
     SaveEMS saveEMS;
-<<<<<<< HEAD
-    KKKK kkkkk;
-    AAA aaa;
-    FsssEMS fsssEMS;
-=======
 
->>>>>>> 9b95799 (sds)
     ProEMS proEMS;
 
     public ViewModEMS(@NonNull Application application) {
         super(application);
         saveEMS = new SaveEMS();
-<<<<<<< HEAD
-        aaa = new AAA();
-        Onnnn onnnn= new Onnnn();
-        onnnn.oooo(application);
         proEMS = new ProEMS();
     }
 
-    public void pppp(ImageView u1, ImageView u2, ImageView u3){
-        proEMS.pppr(u1,u2,u3);
-    }
-
-    public void bbbd(EMSActivity emsActivity){
-        saveEMS.setActivityll(emsActivity);
-    }
-
-    public void njjn(String fgds){
-        saveEMS.setHhj(fgds);
-    }
-
-    public String mkk(){
-        return saveEMS.getHhj();
-    }
-
-    public void aa(EMSActivity emsActivity){
-        fsssEMS = new FsssEMS(aaa);
-        aaa.aaa(emsActivity,fsssEMS);
-    }
-
-    public KKKK kk(EMSActivity emsActivity){
-        kkkkk = new KKKK(emsActivity);
-        kkkkk.kkkDev();
-        kkkkk.kkkInter();
-        return kkkkk;
-    }
-=======
-        proEMS = new ProEMS();
-    }
-
->>>>>>> 9b95799 (sds)
 
     public void ssss(){
         gaMEMS = new GaMEMS();

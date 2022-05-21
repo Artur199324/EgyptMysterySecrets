@@ -9,7 +9,7 @@ public class SaveEMS {
     private int de;
     public Activity activity;
     public Activity activityll;
-
+    
     public void setActivity(Activity activity) {
         this.activity = activity;
     }
@@ -36,7 +36,7 @@ public class SaveEMS {
         activity.getSharedPreferences(activity.getPackageName(), Context.MODE_PRIVATE).edit().putInt("de", de).apply();
     }
 
-
+   
 
     public void mm(String ssff){
         activityll.getSharedPreferences(activityll.getPackageName(),Context.MODE_PRIVATE).edit().putString("bbb",ssff).apply();
