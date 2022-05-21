@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gyptmysterysecrets"
+    tools:context=".actEMS.EMSActivity">
+
+    <TextView
+        android:id="@+id/textIntE"
+        android:layout_width="253dp"
+        android:layout_height="86dp"
+        android:background="#EA9D85"
+        android:gravity="center"
+        android:text="Check the Internet"
+        android:textColor="#F8F5F5"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+
+    <ImageView
+        android:id="@+id/u1"
+        android:layout_width="82dp"
+        android:layout_height="77dp"
+        app:layout_constraintBottom_toTopOf="@+id/textIntE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.346"
+        app:srcCompat="@drawable/ff1" />
+
+    <ImageView
+        android:id="@+id/u2"
+        android:layout_width="82dp"
+        android:layout_height="77dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/u1"
+        app:layout_constraintEnd_toStartOf="@+id/u1"
+        app:layout_constraintTop_toTopOf="@+id/u1"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ff2" />
+
+    <ImageView
+        android:id="@+id/u3"
+        android:layout_width="82dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/u1"
+        app:layout_constraintStart_toEndOf="@+id/u1"
+        app:layout_constraintTop_toTopOf="@+id/u1"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ff3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
